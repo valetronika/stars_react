@@ -1,0 +1,29 @@
+.header {
+    padding: 48px 93px 48px 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.menu_container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 1000px){
+    .menu_container{
+        flex-direction: row-reverse;
+    }
+    .header {
+        padding: 48px 9.3%; /* 93px/1000 */
+        position: sticky;
+        top: 0;
+        z-index: 3;
+    }
+
+
+
+}

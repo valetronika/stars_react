@@ -1,0 +1,18 @@
+.contact_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    padding: 40px 0px 37px 0px;
+}
+@media (max-width: 1120px) {
+
+    .contact_container {
+        /* display: flex; */
+        flex-direction: column;
+        /* gap: 70px; */
+
+    }
+
+  }

@@ -1,0 +1,56 @@
+.nav_menu {
+    position: relative;
+}
+.nav_menu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav_menu li {
+    color: #606060;
+    font-family: Inter;
+    font-size: 17.829px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.743px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+.toggle {
+    display: none;
+}
+@media (max-width: 1000px) {
+    .nav_menu ul {
+        background-color: rgba(41, 43, 41, 0.205);
+        display: block;
+        position: absolute;
+        top: -150vw;
+        right: -100px;
+        width: 100vw;
+        height: 100vw;
+
+        transition: all 0.5s;
+    }
+
+    .toggle {
+        display: block;
+    }
+    .nav_menu .active {
+        background-color: rgb(0, 0, 0);
+        display: block;
+        position: absolute;
+        top: 60px;
+        right: -100px;
+        width: 100vw;
+        height: 150vw;
+        z-index: 2;
+        overflow: hidden;
+    }
+    .nav_menu .active li {
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        margin: 50px 0px 0px 0px;
+    }
+}

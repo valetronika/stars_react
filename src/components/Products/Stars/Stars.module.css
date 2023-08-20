@@ -1,0 +1,7 @@
+
+.stars_container{
+    display: flex;
+}
+.active {
+	color: orange
+}

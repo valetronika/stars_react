@@ -1,0 +1,26 @@
+.contacts {
+    display: flex;
+    gap: 70px;
+
+    color: #b9b9b9;
+    font-family: Inter;
+    font-size: 17.829px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.743px; /* 150% */
+    text-transform: capitalize;
+
+    cursor: pointer;
+}
+
+@media (max-width: 1120px) {
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+  }
+  

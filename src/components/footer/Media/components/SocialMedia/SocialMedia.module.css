@@ -1,0 +1,15 @@
+.media{
+    display: flex;
+    gap: 15px;
+}
+.media * {
+    opacity: 0.5;
+    height: 21px;
+    width: 21px;
+
+    cursor: pointer;
+}
+.media *:hover{
+    opacity: 1;
+
+}

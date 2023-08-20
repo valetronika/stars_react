@@ -1,0 +1,11 @@
+.product_container {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+.App {
+  background-color: #ffffff;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 20px 0px 20px;
+}
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+.active {
+	color: orange
+}
+
+@media (max-width: 1400px) {
+  .App {
+
+    padding: 0px 0px 0px 0px;
+  }
+}

@@ -1,0 +1,28 @@
+
+.logo{
+    display: flex;
+    fill:"#141416";
+}
+.logo * {
+    fill:"#141416";
+}
+.logo_text {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 90px */
+    letter-spacing: -3px;
+    text-transform: capitalize;
+}
+.light{
+    color: #000000;
+}
+.dark{
+    color: #ffffff;
+
+}
+/* .logo_text .light{
+
+    color: #32dd79;
+} */

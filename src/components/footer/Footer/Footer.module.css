@@ -1,0 +1,13 @@
+.footer{
+min-height: 345px;
+flex-shrink: 0;
+background: #141416;
+padding: 0px 93px 0px 93px;
+}
+
+@media (max-width: 1080px) {
+    .footer{
+
+        /* padding: 0px 0px 0px 0px; */
+        }
+}
