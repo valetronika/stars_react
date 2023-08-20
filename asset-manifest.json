@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FE_Pro/fetch-stars_(part2)_React/myapp/static/css/main.04787fde.css",
+    "main.js": "/FE_Pro/fetch-stars_(part2)_React/myapp/static/js/main.8a8ff451.js",
+    "static/media/logo_footer.svg": "/FE_Pro/fetch-stars_(part2)_React/myapp/static/media/logo_footer.10d4d494eb41d693b889176ca8278f32.svg",
+    "static/media/logo.svg": "/FE_Pro/fetch-stars_(part2)_React/myapp/static/media/logo.0e5d134fbf639b97552994299fa27f95.svg",
+    "index.html": "/FE_Pro/fetch-stars_(part2)_React/myapp/index.html",
+    "main.04787fde.css.map": "/FE_Pro/fetch-stars_(part2)_React/myapp/static/css/main.04787fde.css.map",
+    "main.8a8ff451.js.map": "/FE_Pro/fetch-stars_(part2)_React/myapp/static/js/main.8a8ff451.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04787fde.css",
+    "static/js/main.8a8ff451.js"
+  ]
+}
